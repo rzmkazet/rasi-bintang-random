@@ -1,22 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
 <script>
-const songs = [
-    "https://music.youtube.com/watch?v=PgynbV-__AY&si=3EF1MCqpaMOkdf1j",
-    "https://music.youtube.com/watch?v=ASyHtBqhuAM&si=m0nCEvQyFxoS2St2",
-    "https://music.youtube.com/watch?v=sXiu62dA-sg&si=QtARgjmWEP3QPD1k",
-    "https://music.youtube.com/watch?v=4HFiAEjv4r4&si=5XuVoHRdAghAJssl",
-    "https://music.youtube.com/watch?v=Ln60_9Uf1cQ&si=4-KKQ9REjpwavZCo",
-    "https://music.youtube.com/watch?v=RYHLZ7f4LNg&si=xmiNtnM5HxPlL8RI",
-    "https://music.youtube.com/watch?v=Rf4VvcYvdLI&si=T-GHOa-a4VFKRUmB",
-    "https://music.youtube.com/watch?v=XMXVE_56mkg&si=4dVGVwLVljqCsH-O",
-    "https://music.youtube.com/watch?v=V6cQ4LyvOgg&si=oyDbB9nkZ7eGVi2S"
-];
-
-let assignedSong = localStorage.getItem("rasi_bintang_song");
-
-if (!assignedSong) {
-    assignedSong = songs[Math.floor(Math.random() * songs.length)];
-    localStorage.setItem("rasi_bintang_song", assignedSong);
-}
-
-window.location.replace(assignedSong);
+window.location.href = "https://music.youtube.com/";
 </script>
+</head>
+<body>
+Redirecting...
+</body>
+</html>
