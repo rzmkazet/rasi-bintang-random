@@ -11,12 +11,7 @@ const songs = [
     "https://music.youtube.com/watch?v=V6cQ4LyvOgg&si=oyDbB9nkZ7eGVi2S"
 ];
 
-let assignedSong = localStorage.getItem("rasi_bintang_song");
-
-if (!assignedSong) {
-    assignedSong = songs[Math.floor(Math.random() * songs.length)];
-    localStorage.setItem("rasi_bintang_song", assignedSong);
-}
+const randomSong = songs[Math.floor(Math.random() * songs.length)];
 
 window.location.replace(randomSong);
 </script>
